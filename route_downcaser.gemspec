@@ -20,4 +20,5 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency "gem-release", "~> 1.0"
   s.add_development_dependency "package_cloud"
+  s.add_development_dependency "rubocop", "~> 0.52.1"
 end
