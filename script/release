@@ -100,9 +100,9 @@ echo
 # bundle exec rubocop
 # echo
 
-echo_info "👁  Ensure code is correct"
-bundle exec rspec
-echo
+# echo_info "👁  Ensure code is correct"
+# bundle exec rspec
+# echo
 
 echo_info "🚸  Bumping $VERSION_TYPE version, creating a tag, and push to github"
 gem bump --tag --version $VERSION_TYPE
