@@ -96,9 +96,9 @@ echo_info "📥  Ensure local code is up to date"
 git pull
 echo
 
-echo_info "🔎  Ensure code conforms"
-bundle exec rubocop
-echo
+# echo_info "🔎  Ensure code conforms"
+# bundle exec rubocop
+# echo
 
 echo_info "👁  Ensure code is correct"
 bundle exec rspec
