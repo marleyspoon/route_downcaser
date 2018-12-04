@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.summary     = "Makes routing in Rails case-insensitive"
   s.description = "This gem hooks into the Rack middleware of Rails. This way all paths are downcased before dispatching to Rails' routing mechanism. Querystring parameters are not changed in any way."
 
-  s.files = Dir["{lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
   s.add_runtime_dependency "activesupport", [">= 3.2", "< 5.1"]
 
